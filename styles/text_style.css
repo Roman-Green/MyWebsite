@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url("../img/background.jpg") left top repeat;
+    color: #243d3d;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    text-align: justify;
+    text-indent: 50px;
+    font-size: 18px;
+}
+
+h1 {
+    color: rgb(53, 53, 235);
+    font-family: "Cormorant";
+    text-transform: uppercase;
+    text-align: center;
+    margin: 50px;
+}
+
+h2 {
+    margin: 30px;
+    text-align: center;
+}
+
+h3 {
+    margin: 20px;
+}
+
+.first {
+    text-indent: 0;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.arrow {
+    text-align: center;
+    margin: 50px;
+}
+
+.arrow a {
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(53, 53, 235);
+}
+
+.arrow a:hover {
+    text-decoration: underline;
+}
+
+ul li,
+ol li {
+    margin: 15px;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+.no_paragraf {
+    text-indent: 0;
+}
+
+.no_paragraf span {
+    font-weight: bold;
+}
